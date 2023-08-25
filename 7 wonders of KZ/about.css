@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans&family=Manrope:wght@300&family=Playfair+Display&family=Poiret+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.menu {
+display: flex;
+margin-top: 50px;
+margin-left: 300px;
+}
+.menu ul, li {
+    display: block;
+}
+.menu li {
+ margin-right: 50px;
+ margin-top: 15px;
+ margin-left: 30px;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white; 
+    font-family: 'Comfortaa', cursive;
+}
+.cy {
+    margin-left: 500px;
+    display: flex;
+}
+
+.nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+svg {
+    color: black;
+    width: 62px;
+    height: 62px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+svg:hover {
+    color: white;
+    width: 62px;
+    height: 62px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    transition: 0.5s;
+
+}
+body { 
+    background-color: black;
+}
+main {
+    background-color: black ;
+    height: 2000px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.container-1 p {
+    color: white;
+    font-size: 40px;
+    font-family:  'Comfortaa', cursive;
+    padding-top: 100px;
+    letter-spacing: 1px;
+}
+.container-2 {
+    padding-top: 20px;
+}
+.p-1 {
+    color: white;
+    font-size: 30px;
+    font-family:  'Comfortaa', cursive;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.p-2 {
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-stretch: expanded;
+    padding-top: 20px;
+}
+.container-2 img {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 12px;
+
+}
+footer {
+    background-color: black ;
+    width: 1170px;
+
+    margin: auto;
+
+}
+.footnav-1 li a {
+    color: white;
+   font-family:  'Comfortaa', cursive; 
+   font-size: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+
+
+}
+.footnav-1 {
+    display: flex;
+    clear: both;
+    margin-left: 440px;
+
+}
+.footnav-2 li a {
+    color: white;
+   font-family:  'Comfortaa', cursive; 
+   font-size: 12px;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.footnav-2 {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 50px;
+
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.507);
+    font-family:  'Comfortaa', cursive; 
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}

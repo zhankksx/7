@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans&family=Manrope:wght@300&family=Playfair+Display&family=Poiret+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+svg {
+    color: white;
+    width: 62px;
+    height: 62px;
+    border: 1px solid white;
+
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.nav {
+    position: fixed;
+}
+svg:hover {
+    border: 1px solid black;
+
+    color: black;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    transition: 0.5s;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.menu {
+display: flex;
+margin-top: 50px;
+margin-left: 350px;
+}
+ul, li {
+    display: block;
+}
+.menu li {
+ margin-right: 50px;
+ margin-top: 15px;
+ margin-left: 30px;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white; 
+    font-family: 'Comfortaa', cursive;
+}
+.cy {
+    margin-left: 500px;
+    display: flex;
+}
+
+.nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.main-1 {
+    background: url(https://kazgazeta.kz/wp-content/uploads//IMG_3246.jpg) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-1 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-1 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-1 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-1 a {
+    color: white;
+}
+
+
+
+.main-2 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/e/e7/Markakol_1.jpg) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-2 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-2 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-2 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-2 a {
+    color: white;
+}
+
+
+
+.main-3 {
+    background: url(https://storage.yvision.kz/images/user/vzenkov/AT1XdFOk1Bj5hnyI6wJXvx77aL1LgW.jpg) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-3 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-3 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-3 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-3 a {
+    color: white;
+}
+
+
+
+.main-4 {
+    background: url(https://i.pinimg.com/originals/bc/10/a2/bc10a2921733aa197ed1a54e69f51019.jpg) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-4 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-4 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-4 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-4 a {
+    color: white;
+}
+
+
+
+
+.main-5 {
+    background: url(https://lh3.googleusercontent.com/p/AF1QipMyP-mMVLVwptF3GSJOTkyhZtaZQzqsQ7nimkuM=s1360-w1360-h1020) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-5 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-5 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-5 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-5 a {
+    color: white;
+}
+
+
+
+
+
+.main-6 {
+    background: url(https://kompastour.com/useruploads/regions/region_0c9d7afe7d.jpg) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-6 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-6 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-6 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-6 a {
+    color: white;
+}
+
+
+
+
+
+.main-7 {
+    background: url(https://lh3.googleusercontent.com/p/AF1QipOootbe-kdduZ4hOOqQ5WzEMgO7tX2rFbr0tS9s=s1360-w1360-h1020) no-repeat center top / cover ;
+    height: 900px;
+}
+.container-7 {
+    display: flexbox;
+    padding: 300px;
+    margin-left: 50px;
+}
+.container-7 h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-left: -5px;
+}
+.container-7 p {
+    color: white;
+    letter-spacing: 0.1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+.container-7 a {
+    color: white;
+}
+
+.btm {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    border: 1px solid white;
+    padding: 17px;
+    width: 180px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btm:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+footer {
+    background-color: rgb(5, 7, 27);
+    height: 200px;
+}
+.footer {
+    background-color: rgb(5, 7, 27);
+    padding-top: 50px;
+    width: 1170px;
+
+    margin: auto;
+
+}
+.footnav-1 li a {
+    color: white;
+   font-family:  'Comfortaa', cursive; 
+   font-size: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+
+
+}
+.footnav-1 {
+    display: flex;
+    clear: both;
+    margin-left: 440px;
+
+}
+.footnav-2 li a {
+    color: white;
+   font-family:  'Comfortaa', cursive; 
+   font-size: 12px;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.footnav-2 {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 50px;
+
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.507);
+    font-family:  'Comfortaa', cursive; 
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
